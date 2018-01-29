@@ -1,4 +1,4 @@
-defaultTasks '<task>'
+defaultTasks 'jar'
 
 apply plugin: 'java'
 
@@ -8,7 +8,22 @@ dependencies {
 
 jar {
 	manifest {
-		attributes("<attribute>": "______",
-        		   "<attribute>": "_______")
+		attributes('Main-Class': "pkg1.AntLabMain.java")
 	}
+}
+
+compileJava {
+
+}
+
+compileTest {
+
+}
+
+javadoc {
+
+}
+
+clean {
+
 }
