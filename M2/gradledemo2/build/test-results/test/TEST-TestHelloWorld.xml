@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestHelloWorld" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-31T02:30:42" hostname="lawn-143-215-82-129.lawn.gatech.edu" time="0.003">
-  <properties/>
-  <testcase name="testMain" classname="TestHelloWorld" time="0.003"/>
-  <system-out><![CDATA[Testing the Main Module
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
