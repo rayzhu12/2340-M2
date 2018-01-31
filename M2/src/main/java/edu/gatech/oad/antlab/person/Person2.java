@@ -31,13 +31,13 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-         String mod = "";
-         while(input.length() > 0) {
-              int random = (int)(Math.random() * input.length());
-              mod = mod + input.substring(random, random + 1);
-              input = input.substring(0, random) + input.substring(random + 1);
-         }
-         return mod;
+	  String mod = "";
+	  while(input.length() > 0) {
+          int random = (int)(Math.random() * input.length());
+          mod = mod + input.substring(random, random + 1);
+          input = input.substring(0, random) + input.substring(random + 1);
+      }
+	  return mod;
 	}
 	/**
 	 * Return a string rep of this object
