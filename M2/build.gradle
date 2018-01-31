@@ -1,29 +1,16 @@
-defaultTasks 'jar'
-
 apply plugin: 'java'
 
-dependencies {
-	_____________
-}
+defaultTasks 'jar'
+
+version = '1.0'
+sourceCompatibility = 1.8
 
 jar {
-	manifest {
-		attributes('Main-Class': "pkg1.AntLabMain.java")
-	}
+    manifest {
+        attributes 'Implementation-Title': 'SnackOverflowBuild', 'Implementation-Version': version, 'Main-Class': 'package edu.gatech.oad.antlab.pkg1.AntLabMain', 'Class-Path' : '.../.../lib/resources.jar'
+    }
 }
 
-compileJava {
-
-}
-
-compileTest {
-
-}
-
-javadoc {
-
-}
-
-clean {
-
+dependencies {
+    compile files('lib/resources.jar')
 }

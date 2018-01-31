@@ -45,7 +45,9 @@ public class Person3 {
 	  //Person 3 put your implementation here
 		String output = "";
 		for (int i = input.length()-1; i > 0; i--) {
-			output += input.substring(i-1, i);
-	  	return output;
+			output += input.substring(i - 1, i);
+		}
+			return output;
+
 	}
 }
