@@ -1,0 +1,29 @@
+defaultTasks 'jar'
+
+apply plugin: 'java'
+
+dependencies {
+	_____________
+}
+
+jar {
+	manifest {
+		attributes('Main-Class': "pkg1.AntLabMain.java")
+	}
+}
+
+compileJava {
+
+}
+
+compileTest {
+
+}
+
+javadoc {
+
+}
+
+clean {
+
+}
