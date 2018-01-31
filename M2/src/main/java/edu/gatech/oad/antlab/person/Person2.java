@@ -35,6 +35,7 @@ public class Person2 {
 	  while(input.length() > 0) {
           int random = (int)(Math.random() * input.length());
           mod = mod + input.substring(random, random + 1);
+          input = input.substring(0, random) + input.substring(random + 1);
       }
 	  return mod;
 	}
